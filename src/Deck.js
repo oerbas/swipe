@@ -29,7 +29,7 @@ class Deck extends Component {
                 }
             }
         });
-        this.state = { panResponder, position };
+        this.state = { panResponder, position, index: 0 };
     }
 
     forceSwipe(direction){
@@ -67,10 +67,11 @@ class Deck extends Component {
         };
     }
     renderCards(){
+        const { index } = this.state;
         return this.props.data.map((item, i) => {
-            if (i < this.state.index) { return null; }
-            console.log(this.state.index); //undefined?
-            if (i === this.state.index){
+            if (i < index) { return null; }
+            console.log(index); //undefined?
+            if (i === index){
                 return (
                     <Animated.View
                         key={item.id}
