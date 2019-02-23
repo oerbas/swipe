@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Deck.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="89" column="84" lean-forward="true" selection-start-line="89" selection-start-column="84" selection-end-line="89" selection-end-column="84" />
+            <state relative-caret-position="269">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -134,7 +134,7 @@
       <workItem from="1549384425302" duration="6695000" />
       <workItem from="1549655299536" duration="1195000" />
       <workItem from="1550704937334" duration="1558000" />
-      <workItem from="1550957724328" duration="2497000" />
+      <workItem from="1550957724328" duration="3427000" />
     </task>
     <task id="LOCAL-00001" summary="added ball page">
       <created>1548865637771</created>
@@ -255,11 +255,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550959659912</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="cascading card list">
+      <created>1550960278033</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1550960278033</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23668000" />
+    <option name="totallyTimeSpent" value="24598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1006" extended-state="6" />
@@ -305,7 +312,8 @@
     <MESSAGE value="handling empty list" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="cards to stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="cards to stack" />
+    <MESSAGE value="cascading card list" />
+    <option name="LAST_COMMIT_MESSAGE" value="cascading card list" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Ball.js">
@@ -337,8 +345,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Deck.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="89" column="84" lean-forward="true" selection-start-line="89" selection-start-column="84" selection-end-line="89" selection-end-column="84" />
+        <state relative-caret-position="269">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
