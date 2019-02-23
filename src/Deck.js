@@ -68,9 +68,11 @@ class Deck extends Component {
     }
     renderCards(){
         const { index } = this.state;
+        if (index >= this.props.data.length){
+            return this.props.renderNoMoreCards();
+        }
         return this.props.data.map((item, i) => {
             if (i < index) { return null; }
-            console.log(index); //undefined?
             if (i === index){
                 return (
                     <Animated.View
